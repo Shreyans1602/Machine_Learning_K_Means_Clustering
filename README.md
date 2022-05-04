@@ -43,11 +43,11 @@ Note that while the K-means algorithm is proved to converge, the algorithm is se
 1. We are going to use the following dataset for this exercise: https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter. Follow the “Data Folder” link and unzip the given file. You will file a folder containing tweets that contain links to various news sources e.g. the file “usnewshealth.txt” contains tweets that refer to articles published in US News. You have to choose one such file and proceed.
 
 2. Perform the following pre-processing steps:
-  - Remove the tweet id and timestamp
-  - Remove any word that starts with the symbol @ e.g. @AnnaMedaris
-  - Remove any hashtag symbols e.g. convert #depression to depression
-  - Remove any URL
-  - Convert every word to lowercase 
+    - Remove the tweet id and timestamp
+    - Remove any word that starts with the symbol @ e.g. @AnnaMedaris
+    - Remove any hashtag symbols e.g. convert #depression to depression
+    - Remove any URL
+    - Convert every word to lowercase 
 
 3. Perform K-means clustering on the resulting tweets using at least 5 different values of K and report your results in the format below. Note that the sum of squared error is defined as:
 
